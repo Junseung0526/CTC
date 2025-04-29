@@ -7,8 +7,8 @@ int main() {
     int c = 3;
 
     c = a;
-    a = a + c;
-    b = b - c;
+    a += c;
+    b -= c;
 
     cout << a << "\n";
     cout << b << "\n";
